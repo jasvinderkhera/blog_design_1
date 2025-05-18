@@ -144,4 +144,54 @@ nav{
     color: var(--primary-color);
 }
 
+/* Blogs */
+
+.blogs{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 1300px;
+    margin: auto;
+    gap: 20px;
+}
+
+.blogs_heading{
+    display: flex;
+    align-items: center;
+}
+.blogs_heading h2{
+    font-weight: 400;
+}
+
+.horizontal_line{
+     flex-grow: 1;
+      height: 1px;
+      background-color: #e0e0e0;
+      margin-left: 10px;
+}
+
+/* Blogs */
+.blog_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    gap: 25px;
+}
+.blog_box{
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blog_box .img_box{
+    height: 400px;
+    width: 300px;
+}
+
+.blog_box .img_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Main */
