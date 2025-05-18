@@ -195,3 +195,14 @@ nav{
 }
 
 /* Main */
+
+
+/* Footer */
+footer{
+    height: 300px;
+}
+
+.footer_horizontal{
+    height: 1px;
+    background-color: #e0e0e0;
+}
