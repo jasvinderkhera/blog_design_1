@@ -4,6 +4,10 @@
     --white-color:#ffffff;
 }
 
+h1,h2,h3,h4,h5,h6,p,span{
+    color: var(--secondary-color);
+}
+
 
 *{
     box-sizing: border-box;
@@ -20,6 +24,9 @@ nav{
     padding: 20px 50px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.699);
 }
+.icon{
+    color: var(--primary-color);
+}
 
 .main_menu{
     display: flex;
@@ -32,6 +39,9 @@ nav{
 }
 .logo{
     font-size: 30px;
+}
+.right_menu .mobile_menu{
+    display: none;
 }
 .main_menu li{
     list-style: none;
@@ -211,6 +221,12 @@ nav{
     margin-bottom: 15px;
     font-size: 14px;
 }
+.blog_title h3, .blog_title p{
+    color: var(--white-color);
+}
+.blog_title h3{
+    margin-bottom: 8px;
+}
 
 .featured_blogs{
     padding: 20px 0;
@@ -277,6 +293,9 @@ nav{
     color: var(--white-color);
     gap: 8px;
     border-radius: 8px;
+}
+.subs_btn span{
+    color: var(--white-color) !important;
 }
 .subs_btn img{
     height: 16px;
@@ -350,3 +369,76 @@ footer a, footer p{
     text-decoration: none;
     color: gray;
 }
+
+
+
+
+/* --------------------------------------------------------------Mobile Devices-------------------------------------------  */
+@media (max-width: 767px) {
+nav{
+    padding: 20px;
+}
+nav .main_menu .left_menu .nav_menu{
+    display: none;
+}
+
+.right_menu .login_btn{
+    display: none;
+}
+.right_menu .mobile_menu{
+    display: block;
+}
+
+.search_box .input_box input{
+    width: 100%;
+    display: block;
+}
+.hero{
+    padding: 20px;
+}
+.hero h2, p{
+    text-align: center;
+}
+.search_box{
+    flex-direction: column;
+}
+
+.blogs{
+    padding: 20px;
+    width: 100%;
+    grid-template-columns: 100%;
+}
+.blog_box{
+    width: 100%;
+}
+.blog_box .img_box{
+    width: 100%;
+}
+.subs_box h3{
+    text-align: center;
+}
+.privacy_policy{
+    justify-content: center;
+}
+
+.footer_sections{
+    grid-template-columns: 100%;
+    padding: 20px;
+}
+.logo{
+    text-align: center;
+}
+
+.footer_section3 .outer_list{
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_sections .search_box{
+    flex-direction: column;
+}
+.subs_box input[type="text"]{
+    width: 100%;
+}
+}
+
+/* --------------------------------------------------------------Mobile Devices-End--------------------------------------  */
