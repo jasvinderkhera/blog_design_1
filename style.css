@@ -340,6 +340,31 @@ input[type="checkbox"] {
   border: none;
 }
 
+
+/* -------------------------------------------------blog-detail-page----------------------------------------------- */
+
+
+.blog_detail_page{
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.blog_detail_page img{
+  max-width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+.blog_detail_page .horizontal_line{
+  margin: 20px 0;
+}
+.blog_detail_page p{
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+/* -------------------------------------------------blog-detail-page--end------------------------------------------ */
+
 /* Main */
 
 /* Footer */
