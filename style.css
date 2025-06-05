@@ -350,7 +350,7 @@ input[type="checkbox"] {
   margin: auto;
 }
 .blog_detail_page img{
-  max-width: 800px;
+  width: 800px;
   height: 400px;
   object-fit: cover;
 }
@@ -359,7 +359,8 @@ input[type="checkbox"] {
 }
 .blog_detail_page p{
   max-width: 1200px;
-  margin: auto;
+  margin: 20px auto;
+
 }
 
 
@@ -523,6 +524,19 @@ footer p {
   }
   .subs_box input[type="text"] {
     width: 100%;
+  }
+
+
+  /* ----------------------------------------------------------blog detail page mobile--------- */
+  .blog_detail_page{
+    width: 100%;
+  }
+
+  .blog_detail_page img{
+    width: 100%;
+  }
+  .blog_detail_page p{
+    text-align: left;
   }
 }
 
